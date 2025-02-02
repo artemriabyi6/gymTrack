@@ -214,10 +214,10 @@ main .added-training .container .added-training-wrapper .exercise-wrapper .train
     font-size: 10px;
     font-weight: 600;
     font-family: Poppins;
-    margin-right: 20px;
+    margin-right: 0px;
   }
   main .main-banner .exercise-wrapper select {
-    margin-right: 20px;
+    margin-right: 0px;
     height: 20px;
     width: 80px;
     text-align: center;
@@ -232,12 +232,12 @@ main .added-training .container .added-training-wrapper .exercise-wrapper .train
     text-align: center;
     font-size: 12px;
     border: 1px solid black;
-    margin-right: 30px;
+    margin-right: 0px;
   }
   main .main-banner .exercise-wrapper .set-input,
   main .main-banner .exercise-wrapper .rep-input {
     font-size: 10px;
-    margin-right: 20px;
+    margin-right: 0px;
     width: 20px;
     height: 15px;
     text-align: center;
@@ -344,7 +344,7 @@ main .added-training .container .added-training-wrapper .exercise-wrapper .train
   header .container nav ul li:last-child {
     margin-right: 0px;
   }
-  main .main-banner form {
+  main .main-banner {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -360,18 +360,22 @@ main .added-training .container .added-training-wrapper .exercise-wrapper .train
     font-size: 13px;
   }
   main .main-banner .exercise-wrapper {
-    margin-bottom: 15px;
+    margin-bottom: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   main .main-banner .exercise-wrapper label {
-    font-size: 8px;
+    font-size: 15px;
     font-weight: 600;
     font-family: Poppins;
-    margin-right: 10px;
+    margin-bottom: 10px;
   }
   main .main-banner .exercise-wrapper select {
-    margin-right: 20px;
+    margin-bottom: 20px;
     height: 20px;
-    width: 40px;
+    width: 100px;
     text-align: center;
     border-radius: 6px;
     border: 1px solid teal;
@@ -389,8 +393,8 @@ main .added-training .container .added-training-wrapper .exercise-wrapper .train
   main .main-banner .exercise-wrapper .set-input,
   main .main-banner .exercise-wrapper .rep-input {
     font-size: 10px;
-    margin-right: 20px;
-    width: 20px;
+    margin-bottom: 20px;
+    width: 40px;
     height: 15px;
     text-align: center;
     height: 16px;
@@ -398,7 +402,7 @@ main .added-training .container .added-training-wrapper .exercise-wrapper .train
     border: 1px solid teal;
   }
   main .main-banner button {
-    margin-top: 20px;
+    margin-top: 0px;
     font-size: 15px;
     width: 150px;
     background-color: white;
@@ -426,7 +430,7 @@ main .added-training .container .added-training-wrapper .exercise-wrapper .train
     width: 150px;
     border: 2px solid teal;
     border-radius: 12px;
-    margin: 0px 30px 30px 0px;
+    margin: 0px 0px 30px 0px;
     padding: 10px 10px;
     font-size: 12px;
   }
