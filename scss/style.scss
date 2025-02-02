@@ -335,3 +335,170 @@ main {
         }
       }
 }
+
+@media (max-width: 565px) {
+
+    header {
+        background-color: black;
+        color: white;
+        margin-bottom: 50px;
+        .container {
+          max-width: 1700px;
+          display: flex;
+          justify-content: space-between;
+          padding: 0px 20px;
+          align-items: center;
+          .header-description {
+            .header-title {
+              font-size: 18px;
+              font-family: Poppins;
+              font-weight: 600;
+            }
+          }
+          nav {
+            ul {
+              list-style: none;
+              display: flex;
+              li {
+                margin-right: 30px;
+                a {
+                    font-size: 13px;
+                  text-decoration: none;
+                  color: white;
+                  transition: 0.2s ease-in-out;
+                  &:hover {
+                    color: teal;
+                  }
+                }
+                &:last-child {
+                  margin-right: 0px;
+                }
+              }
+            }
+          }
+        }
+      }
+
+    main {
+        .main-banner {
+            form{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+          #trainingData {
+            margin-bottom: 50px;
+            width: 100px;
+            height: 30px;
+            text-align: center;
+            border-radius: 15px;
+            padding: 0px 20px;
+            border: 1px solid teal;
+            font-size: 13px;
+          }
+          .exercise-wrapper {
+            margin-bottom: 15px;
+            label {
+              font-size: 8px;
+              font-weight: 600;
+              font-family: Poppins;
+              margin-right: 10px;
+            }
+            select {
+              margin-right: 20px;
+              height: 20px;
+              width: 40px;
+              text-align: center;
+              border-radius: 6px;
+              border: 1px solid teal;
+              font-size: 10px;
+            }
+      
+            #set {
+              height: 30px;
+              width: 40px;
+              border-radius: 6px;
+              text-align: center;
+              font-size: 12px;
+              border: 1px solid black;
+              margin-right: 30px;
+            }
+            .set-input,
+            .rep-input {
+              font-size: 10px;
+              margin-right: 20px;
+              width: 20px;
+              height: 15px;
+              text-align: center;
+              height: 16px;
+              border-radius: 6px;
+              border: 1px solid teal;
+            }
+          }
+          button {
+            margin-top: 20px;
+            font-size: 15px;
+            width: 150px;
+            background-color: white;
+            padding: 9px 7px;
+            cursor: pointer;
+            border: 1px solid teal;
+            border-radius: 20px;
+            transition: 0.2s ease-in-out;
+            &:hover {
+              background-color: teal;
+            }
+          }
+        }
+        .added-training {
+          font-family: Poppins;
+          margin-top: 50px;
+      
+          .container {
+            .added-training-wrapper {
+              display: flex;
+              justify-content: center;
+              flex-wrap: wrap;
+              .training-card {
+                display: flex;
+                flex-direction: column;
+                width: 150px;
+                border: 2px solid teal;
+                border-radius: 12px;
+                margin: 0px 30px 30px 0px ;
+                padding: 10px 10px;
+                font-size: 12px;
+                h3 {
+                  text-align: center;
+                }
+               .training-card-row {
+                  display: flex;
+                  align-items: center;
+                  justify-content: space-between;
+                  .first-block {
+                    width: 70px;
+                  }
+                  .second-block {
+                      width: 30px;
+                      font-size: 12px;
+                  }
+               }
+              }
+              .exercise-wrapper {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                .training-details {
+                  display: flex;
+                  align-items: center;
+                  justify-content: space-between;
+                  .exercise-name {
+                    margin-right: 20px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+}
