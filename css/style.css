@@ -1,0 +1,309 @@
+.container {
+  max-width: 1400px;
+  margin: auto;
+}
+
+header {
+  background-color: black;
+  color: white;
+  margin-bottom: 100px;
+}
+header .container {
+  max-width: 1700px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+  align-items: center;
+}
+header .container .header-logo {
+  width: 60px;
+}
+header .container .header-logo img {
+  display: block;
+  width: 100%;
+  border-radius: 10%;
+}
+header .container .header-description .header-title {
+  font-size: 25px;
+  font-family: Poppins;
+  font-weight: 600;
+}
+header .container nav ul {
+  list-style: none;
+  display: flex;
+}
+header .container nav ul li {
+  margin-right: 100px;
+}
+header .container nav ul li a {
+  text-decoration: none;
+  color: white;
+  transition: 0.2s ease-in-out;
+}
+header .container nav ul li a:hover {
+  color: teal;
+}
+header .container nav ul li:last-child {
+  margin-right: 0px;
+}
+
+main .main-banner #trainingData {
+  margin-bottom: 30px;
+  margin-bottom: 30px;
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  border-radius: 15px;
+  padding: 0px 20px;
+  border: 1px solid teal;
+  font-size: 18px;
+}
+main .main-banner .exercise-wrapper {
+  margin-bottom: 15px;
+}
+main .main-banner .exercise-wrapper label {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: Poppins;
+  margin-right: 20px;
+}
+main .main-banner .exercise-wrapper select {
+  margin-right: 30px;
+  height: 30px;
+  width: 200px;
+  text-align: center;
+  border-radius: 6px;
+  border: 1px solid teal;
+}
+main .main-banner .exercise-wrapper #set {
+  height: 30px;
+  width: 200px;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 15px;
+  border: 1px solid black;
+  margin-right: 30px;
+}
+main .main-banner .exercise-wrapper .set-input,
+main .main-banner .exercise-wrapper .rep-input {
+  font-size: 17px;
+  margin-right: 30px;
+  text-align: center;
+  height: 24px;
+  border-radius: 6px;
+  border: 1px solid teal;
+}
+main .main-banner button {
+  margin-top: 30px;
+  font-size: 18px;
+  width: 200px;
+  background-color: white;
+  padding: 15px 10px;
+  cursor: pointer;
+  border: 1px solid teal;
+  border-radius: 20px;
+  transition: 0.2s ease-in-out;
+}
+main .main-banner button:hover {
+  background-color: teal;
+}
+main .added-training {
+  font-family: Poppins;
+  margin-top: 50px;
+}
+main .added-training .container .added-training-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+main .added-training .container .added-training-wrapper .training-card {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border: 2px solid teal;
+  border-radius: 16px;
+  margin: 0px 30px 30px 0px;
+  padding: 20px 45px;
+}
+main .added-training .container .added-training-wrapper .training-card h3 {
+  text-align: center;
+}
+main .added-training .container .added-training-wrapper .training-card .training-card-row {
+  display: flex;
+  justify-content: space-between;
+}
+main .added-training .container .added-training-wrapper .training-card .training-card-row .second-block {
+  width: 50px;
+}
+main .added-training .container .added-training-wrapper .exercise-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+main .added-training .container .added-training-wrapper .exercise-wrapper .training-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .added-training .container .added-training-wrapper .exercise-wrapper .training-details .exercise-name {
+  margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+  header {
+    background-color: black;
+    color: white;
+    margin-bottom: 50px;
+  }
+  header .container {
+    max-width: 1700px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    align-items: center;
+  }
+  header .container .header-logo {
+    width: 60px;
+  }
+  header .container .header-logo img {
+    display: block;
+    width: 100%;
+    border-radius: 10%;
+  }
+  header .container .header-description .header-title {
+    font-size: 25px;
+    font-family: Poppins;
+    font-weight: 600;
+  }
+  header .container nav ul {
+    list-style: none;
+    display: flex;
+  }
+  header .container nav ul li {
+    margin-right: 100px;
+  }
+  header .container nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.2s ease-in-out;
+  }
+  header .container nav ul li a:hover {
+    color: teal;
+  }
+  header .container nav ul li:last-child {
+    margin-right: 0px;
+  }
+  main .main-banner form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .main-banner #trainingData {
+    margin-bottom: 50px;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border-radius: 15px;
+    padding: 0px 20px;
+    border: 1px solid teal;
+    font-size: 13px;
+  }
+  main .main-banner .exercise-wrapper {
+    margin-bottom: 15px;
+  }
+  main .main-banner .exercise-wrapper label {
+    font-size: 10px;
+    font-weight: 600;
+    font-family: Poppins;
+    margin-right: 20px;
+  }
+  main .main-banner .exercise-wrapper select {
+    margin-right: 20px;
+    height: 20px;
+    width: 80px;
+    text-align: center;
+    border-radius: 6px;
+    border: 1px solid teal;
+    font-size: 10px;
+  }
+  main .main-banner .exercise-wrapper #set {
+    height: 30px;
+    width: 40px;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 12px;
+    border: 1px solid black;
+    margin-right: 30px;
+  }
+  main .main-banner .exercise-wrapper .set-input,
+  main .main-banner .exercise-wrapper .rep-input {
+    font-size: 10px;
+    margin-right: 20px;
+    width: 20px;
+    height: 15px;
+    text-align: center;
+    height: 16px;
+    border-radius: 6px;
+    border: 1px solid teal;
+  }
+  main .main-banner button {
+    margin-top: 20px;
+    font-size: 15px;
+    width: 150px;
+    background-color: white;
+    padding: 9px 7px;
+    cursor: pointer;
+    border: 1px solid teal;
+    border-radius: 20px;
+    transition: 0.2s ease-in-out;
+  }
+  main .main-banner button:hover {
+    background-color: teal;
+  }
+  main .added-training {
+    font-family: Poppins;
+    margin-top: 50px;
+  }
+  main .added-training .container .added-training-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  main .added-training .container .added-training-wrapper .training-card {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    border: 2px solid teal;
+    border-radius: 12px;
+    margin: 0px 30px 30px 0px;
+    padding: 10px 10px;
+    font-size: 12px;
+  }
+  main .added-training .container .added-training-wrapper .training-card h3 {
+    text-align: center;
+  }
+  main .added-training .container .added-training-wrapper .training-card .training-card-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  main .added-training .container .added-training-wrapper .training-card .training-card-row .first-block {
+    width: 70px;
+  }
+  main .added-training .container .added-training-wrapper .training-card .training-card-row .second-block {
+    width: 30px;
+    font-size: 12px;
+  }
+  main .added-training .container .added-training-wrapper .exercise-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  main .added-training .container .added-training-wrapper .exercise-wrapper .training-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  main .added-training .container .added-training-wrapper .exercise-wrapper .training-details .exercise-name {
+    margin-right: 20px;
+  }
+}/*# sourceMappingURL=style.css.map */
